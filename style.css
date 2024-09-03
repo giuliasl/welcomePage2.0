@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 100vh; /*tamanho conforme ao viewport da tela*/
+    /* height: 100vh; tamanho conforme ao viewport da tela */
     box-sizing: border-box; /*controle dos elementos filhos dentro dos elementos pai*/
     background-color: #000000;
     color: #ffffff
@@ -20,7 +20,7 @@ strong.text{
 }
 
 .principalContent{
-    margin:10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,4 +79,31 @@ strong.text{
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-size: 22px;
+}
+
+.footerConfig{
+    background-color: #22D4FD;
+    color: #000000;
+    padding: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.headerConfig{
+    padding: 2% 0% 0% 15%; 
+}
+
+.headerConfigLink{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap:80px;
 }
