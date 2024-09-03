@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WelcomePage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    <header class="headerConfig">
-        <nav class="menu">
-            <a class="headerConfigLink" href="">HOME</a>
-            <a class="headerConfigLink" href="">SOBRE MIM</a>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html">SOBRE MIM</a>
         </nav>
     </header>
-
-    <main class="principalContent">
-        <section class="c ontent__section">
-            <h1 class="content__section_title">Eleve seu negócio digital a outro nível <strong class="text">com um Front-end de qualidade!</strong></h1>
-            <p class="content__section_paragraph">Olá! Sou Giulia Lima, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-            
-            <div class="button">
-                <h2 class="content__section__sub">Acesse as minhas redes: </h2>
-                <a class="buttonLink" href="https://github.com/giuliasl">
-                    <img src="images/Logo Github.png" alt="GitHub">
-                    GitHub
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
+            class="titulo-destaque">com um Front-end de qualidade!
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou a Giulia, desenvolvedora
+            Front-end com especialidade em React, HTML e
+            CSS. Ajudo pequenos negócios e designers a
+            colocarem em prática boas ideias. Vamos
+            conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__link" href="https://github.com/rafaballerini">
+                    <img src="./assets/github.png">
+                    Github
                 </a>
-                <a class="buttonLink" href="https://www.instagram.com/">
-                    <img src="images/Logo Twitch.png" alt="">
-                    Instagram
+                <a class="apresentacao__links__link" href="https://linkedin.com/in/rafaellaballerini">
+                    <img src="./assets/linkedin.png">
+                    linkedin
                 </a>
-
-                <a class="buttonLink" href="">
-                    <img src="images/Logo linkedin.png" alt="Linkedin">
-                    Linkedin
-                </a>  
-            </div>   
+                <a class="apresentacao__links__link" href="https://twitch.tv/guilimadev">
+                    <img src="./assets/twitch.png">
+                    Twitch
+                </a>
+            </div>
         </section>
-
-        <img src="/images/Imagem.png" alt="Imagem">
+        <img src="./assets/imagem.png" alt="">
     </main>
-    <footer class="footerConfig">
+    <footer class="rodape">
         <p>Desenvolvido por Giulia Lima</p>
     </footer>
 </body>
+
 </html>
