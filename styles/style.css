@@ -24,7 +24,7 @@ body{
 }
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 80px; /*espaço entre os elementos*/
 }
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
@@ -35,6 +35,7 @@ body{
 }
 .apresentacao{
     padding: 5% 15%;
+    gap: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,4 +101,31 @@ body{
 
 .apresentacao__imagem{
     width: 50%;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 1200px){
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto; /*acompanha o espaço total do conteudo pai*/
+    }
+
+
+    
+
+
+
 }
